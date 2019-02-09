@@ -38,7 +38,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
 * Loyola University Chicago
-* All of my classmates that contributed to in class discussions or have practice code with me. Thank you for your contribution!
+* All of my classmates that contributed to in class discussions or have practiced code with me. Thank you for your contribution!
 
