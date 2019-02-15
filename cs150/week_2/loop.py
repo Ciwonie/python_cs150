@@ -15,7 +15,7 @@ print("Hello World!")
 # # current variable to print out
 # c = 0
 
-# for i in range(10) :
+# for i in range(100000000) :
 #     if i == 0 :
 #         print(a)
 #         continue
@@ -55,10 +55,10 @@ print("Hello World!")
 #             print(i, j, k)
 
 # CLASS EXAMPLE 1
-for i in range(4,8) :
-    if i == 5: 
-        continue
-    print(i)
+# for i in range(4,8) :
+#     if i == 5: 
+#         continue
+#     print(i)
 
 # c = [12, 56, 78, 96, 45, 10]
 # print(c[3:5])
