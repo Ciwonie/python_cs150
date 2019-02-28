@@ -30,7 +30,7 @@ def guessChecker(myGuess):
             else:
                 numbersGuessed.append(userGuess)
                 attempts += 1
-                print("***You guessed correctly!*** \n")
+                print("***You guessed correctly!***")
                 print("Congratulations, here are your attempts: {} ".format(attempts))
                 print('These were your guessed numbers: {}'.format(numbersGuessed))
                 break

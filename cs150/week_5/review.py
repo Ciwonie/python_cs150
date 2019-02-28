@@ -17,7 +17,7 @@ for key, value in enumerate(a):
 print('Enumerate: ' + str(b))
 print('----------------------------------')
 
-# While question - EX: A question incompassing if, elif, else. Write a while loop program that only prints out even numbers and exits the while loop when the sum of the numbers are over 20
+# While question - EX: A question encompassing if, elif, else. Write a while loop program that only prints out even numbers and exits the while loop when the sum of the numbers are over 20
 c = [2, 4, 6, 7, 8, 3, 12, 15, 24, 42]
 i = 0
 summation = 0
