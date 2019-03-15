@@ -13,11 +13,11 @@ c = 0
 for key, value in enumerate(a):
     if key % 2 == 0:
         b += value
-        print('value of b: ' + str(b))
     if value % 2 == 1:
         c += value
-        print('value of c: ' + str(c))
 
+print('value of b: ' + str(b))
+print('value of c: ' + str(c))
 print('----------------------------------')
 print('----------------------------------')
 
@@ -71,17 +71,14 @@ print('----------------------------------')
 
 # PRACTICE 5 - Biblical constructors of the holy trinity
 nameList = ['John', 'Peter', 'Mark']
-status = ['gay', 'straight', 'weeb']
 
 
 class Student:
 
-    def __init__(self, name, status):
+    def __init__(self, name):
         self.biblicalName = name
-        self.biblicalStatus = status
 
 
-for key, value in enumerate(nameList):
-    studentInstance = Student(value, status[key])
-    print('Constructor: ' + str(studentInstance.biblicalName) + ': ' +
-          str(studentInstance.biblicalStatus))
+for i in nameList:
+    studentInstance = Student(i)
+    print('Constructor: ' + str(studentInstance.biblicalName))
