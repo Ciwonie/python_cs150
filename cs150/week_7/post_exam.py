@@ -1,4 +1,4 @@
-# QUESTION 1 - Write a program that adds up all the index and even values into a and prints out the final value.
+# QUESTION 1 - Write a program that adds up all the odd index and even values into a and prints out the final value.
 a = [12, 34, 28, 96, 57, 105, 26]
 
 mySum = 0
@@ -8,7 +8,7 @@ for index, element in enumerate(a):
 print(mySum)
 print('==================================')
 
-# QUESTION 2 - Write a program that prints the index and the value in a for each iteration
+# QUESTION 2 - Write a program that prints the index and the value in b for each iteration
 b = [12, 54, 13, 5, 17]
 for index, value in enumerate(b):
     print('Index: {} Value: {}'.format(index, value))
