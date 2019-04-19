@@ -96,6 +96,27 @@ void keyPressed() {
     
 }
 
+// triangle math
+// we need to take y = y3 + (y2-y3)/2
+// x = x1 + (x2-x1)/2
+// picture
+//          x3, y3
+//          /  \
+//         /    \  
+//        /  *   \
+///x1,y1 /________\
+
+
+// square math
+// shape of the square is:
+// x,y --------- x+w, y
+//  |              |
+//  |              |
+//  |              |
+// x,y+h ------- x+w, y+h
+
+// if mousex > x && mouse x < x+w && mouse y > y && mouse y < y+h
+// inSquare = true
 
 void mousePressed() {
   
