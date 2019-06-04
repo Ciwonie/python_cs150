@@ -18,6 +18,12 @@ def unpacker(first_name=None, last_name=None):
 packer(name="kenneth", num=42, spanish_inquisition=None)
 unpacker(**{"last_name": "Love", "first_name": "Kenneth"})
 
+course_minutes = {"Python Basics": 232, "Django Basics": 237,
+                  "Flask Basics": 189, "Java Basics": 133}
+
+for course, minutes in course_minutes.items():
+    print("{} is {} minutes long".format(course, minutes))
+
 
 def word_count(string):
     word_list = string.lower().split()

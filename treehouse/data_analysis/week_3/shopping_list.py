@@ -51,11 +51,11 @@ def add_to_list(item):
 
 def show_list():
     clear_screen()
-    index = 1
+
     print("Here's your list:")
-    for item in shopping_list:
+
+    for index, item in enumerate(shopping_list, start=1):
         print('* {}. {}'.format(index, item))
-        index += 1
     print('-'*10)
 
 
