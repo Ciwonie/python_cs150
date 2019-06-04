@@ -1,5 +1,8 @@
 # I'm just playing around with packing and unpacking dictionaries
 
+teachers = {'Andrew Chalkley': ['jQuery Basics', 'Node.js Basics'],
+            'Kenneth Love': ['Python Basics', 'Python Collections', 'AWS', 'Advanced Java']}
+
 
 def packer(name=None, **kwargs):
     print(kwargs)
@@ -26,3 +29,20 @@ def word_count(string):
                 count += 1
         word_dict[word] = count
     return word_dict
+
+
+def most_courses(dict):
+    most_class = ""     # holds the name of teach with most class
+    max_count = 0       # max counter for classes
+    for teacher in dict:
+        if len(dict[teacher]) > max_count:
+            max_count = len(dict[teacher])
+            most_class = teacher
+    return most_class
+
+
+def stats(dict):
+    all_courses = []
+    for teachers in dict:
+        all_courses.append([teachers, len(dict[teachers])])
+    return all_courses
